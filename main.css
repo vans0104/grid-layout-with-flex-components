@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
@@ -24,4 +25,16 @@ body {
   
   .icon {
     font-size: 4rem;
+  }
+
+  .products{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 20%;
+    grid-template-areas: 10px;
+  }
+
+  .emoji{
+    border-radius: 10px;
+    padding: 20px;
   }
